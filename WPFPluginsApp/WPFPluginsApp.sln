@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPluginsApp", "WPFPlugins
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPluginsInfrastructure", "WPFPluginsInfrastructure\WPFPluginsInfrastructure.csproj", "{A26EC9AB-D7F4-4947-A5FB-553C6EB11294}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPlugin1", "WPFPlugin1\WPFPlugin1.csproj", "{3ABDD77E-B845-4D7D-886E-CC2C5A360A9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A26EC9AB-D7F4-4947-A5FB-553C6EB11294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A26EC9AB-D7F4-4947-A5FB-553C6EB11294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26EC9AB-D7F4-4947-A5FB-553C6EB11294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ABDD77E-B845-4D7D-886E-CC2C5A360A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ABDD77E-B845-4D7D-886E-CC2C5A360A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ABDD77E-B845-4D7D-886E-CC2C5A360A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ABDD77E-B845-4D7D-886E-CC2C5A360A9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
