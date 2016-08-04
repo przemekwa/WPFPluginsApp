@@ -13,7 +13,7 @@ namespace WPFPlugin1
     {
         public WpfPlugin1(IUnityContainer container, IRegionManager regionManager ) : base(container, regionManager)
         {
-            this.MainWindowType = typeof(Views.Inputs);
+            this.MainWindowType = typeof(Views.PluginView);
         }
 
         /// <summary>

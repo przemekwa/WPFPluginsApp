@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using WPFPluginsApp.ViewModels;
 
 namespace WPFPluginsApp.Views
 {
@@ -19,9 +20,10 @@ namespace WPFPluginsApp.Views
     /// </summary>
     public partial class ShellView : Window
     {
-        public ShellView()
+        public ShellView(ShellViewModel viewModel)
         {
             InitializeComponent();
+            this.DataContext = viewModel;
         }
     }
 }

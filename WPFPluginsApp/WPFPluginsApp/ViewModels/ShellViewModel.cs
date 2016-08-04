@@ -19,16 +19,6 @@ namespace WPFPluginsApp.ViewModels
     public class ShellViewModel : BindableBase
     {
         public ObservableCollection<MenuItem> MenuItems { get; set; }
-
-        public static ICommand ShowSettingsCommand { get; set; }
-      
-        public string UserName { get; set; } = Environment.UserName;
-
-        public string ServerVersion { get; set; }
-
-        public ShellViewModel()
-        {
-          
-        }
+        
     }
 }

@@ -81,15 +81,15 @@ namespace WPFPluginsApp
 
         protected override void InitializeModules()
         {
-            var menuItems = this.Container.TryResolve<ObservableCollection<MenuItem>>();
+            //var menuItems = this.Container.TryResolve<ObservableCollection<MenuItem>>();
 
-          menuItems.Add(new MenuItem
-            {
-                IsEnabled = true,
+          //menuItems.Add(new MenuItem
+          //  {
+          //      IsEnabled = true,
              
-                Header = "Ustawienia",
-                Command = ShellViewModel.ShowSettingsCommand
-            });
+          //      Header = "Ustawienia",
+          //      Command = null
+          //  });
             
         }
         
